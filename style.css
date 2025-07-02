@@ -1,14 +1,15 @@
-:root {
-  --bg-color: lightblue;
-}
-
-body {
-  background-color: var(--bg-color);
-}
-
 div {
-  --bg-color: lightgreen;
   width: 40px;
   height: 40px;
-  background-color: var(--bg-color);
+  border: solid;
+  text-align: center;
+  line-height: 250%;
+  margin-top: 4px;
+}
+
+div:hover {
+}
+
+div:not(.nao) {
+  background-color: lightcoral;
 }
